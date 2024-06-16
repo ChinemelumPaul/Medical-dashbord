@@ -57,6 +57,8 @@ header ul {
 
 header ul li {
   list-style: none;
+  padding: 20px; 
+  width: 100%;
 }
 
 header ul .list-one {
@@ -72,7 +74,14 @@ header ul .list-two {
 }
 
 header ul .list-two.active {
-  background: #01F0D0;
+  position: relative;
+  top: 1px;
+  right: 110px;
+
+  background: #01F0D0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  opacity: 1;
+  
 }
 
 
@@ -106,7 +115,7 @@ header ul .list-one img {
 
 header ul .list-two img {
   position: relative;
-  top: 10px;
+  top: 8px;
   right: 10px;
   width: 24px;
   height: 17px;
@@ -165,7 +174,7 @@ header ul .list-one a {
 
 header ul .list-two a {
   position: relative;
-  top: 9px;
+  top: 5px;
   right: 5px;
 
   width: 57px;
@@ -393,8 +402,6 @@ main {
   display: flex;
 
   opacity: 1;
-
-  background: #0198f0;
 }
 
 .patient-five {
@@ -577,6 +584,14 @@ main {
   height: 4px;
   opacity: 1;
 }
+
+.patient-four-background {
+  background: #0198f0;
+  background: #D8FCF7 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
 
 
 /* Daignosis History */
